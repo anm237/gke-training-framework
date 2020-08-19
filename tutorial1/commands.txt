@@ -1,0 +1,17 @@
+   53  sudo docker build -t anm237/gketraining:v1 .
+   54  sudo docker images
+   56  sudo docker run -p 8183:8080 -d anm237/gketraining:v1
+   57  ifconfig
+   60  clear
+   61  history
+   62  sudo docker ps
+   64  sud docker stop f960a1785387        
+   66  sudo docker rm f960a1785387        
+   67  sudo docker ps 
+   68  ls
+   69  sudo docker images
+   70  sudo docker tag anm237/gketraining:v1 anm237/gketraining:v1 
+   72  sudo docker login
+   73  sudo docker push anm237/gketraining:v1
+   74  ls
+   75  history
